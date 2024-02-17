@@ -1,16 +1,16 @@
 const { Colors } = require('discord.js');
 
 const config = {
-	ownerID: ['YourAccountID'],
-	token: 'YourBotToken',
+	ownerID: [''],
+	token: '',
 	// For looking up Twitch, Fortnite, Steam accounts
 	api_keys: {
 		// https://genius.com/developers
-		genius: 'genuisAPI-KEY',
+		genius: 'Dza2bzs2Z_9apiZEcX65MBV0gonNsTNv3CwWAoOkChvA5ayhpnnm5ObhpuADMpOL',
 		// https://api.amethyste.moe/
-		amethyste: 'amethysteAPI-Key',
+		amethyste: '',
 		// https://api.egglord.dev/settings
-		masterToken: '',
+		masterToken: 'LTFQVyQI0vBqc7sw5r5Q2vLsc5AHQWT4FxbpcYSehHjTowEHZ26mhysiOFY0KyrJuNpkTfOAvbm0X5nFnvM2yM',
 	},
 	// add plugins/commands here if you don't want them loaded in the bot.
 	disabledCommands: [],
@@ -40,7 +40,7 @@ const config = {
 		{ host: 'localhost', port: 5000, password: 'youshallnotpass' },
 	],
 	// URL to mongodb
-	MongoDBURl: 'mongodb://link',
+	MongoDBURl: 'mongodb+srv://Zxyy:3308@cluster0.v3dmc2z.mongodb.net/?retryWrites=true&w=majority',
 	// embed colour
 	embedColor: Colors.Default,
 	// This will spam your console if you enable this but will help with bug fixing
