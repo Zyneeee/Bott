@@ -1,8 +1,8 @@
 const { Colors } = require('discord.js');
 
 const config = {
-	ownerID: [''],
-	token: '',
+	ownerID: ['1107744228773220473'],
+	token: 'MTIwMzI5Njc1MzkzNjM2NzY5Ng.GsE-Oo.YtgVF0hgRuzIT62hoSoknYRQ_RpNAbxpj0lIts',
 	// For looking up Twitch, Fortnite, Steam accounts
 	api_keys: {
 		// https://genius.com/developers
@@ -19,17 +19,17 @@ const config = {
 	// your support server
 	SupportServer: {
 		// Link to your support server
-		link: 'https://discord.gg/8g6zUQu',
+		link: 'https://discord.gg/',
 		// Your support's server ID
-		GuildID: '750822670505082971',
+		GuildID: '1207249204943261717',
 		// This for using the suggestion command on your server
-		ModRole: '751857618720522341',
+		ModRole: '1207265500090863656',
 		// What channel to post the suggestions
-		SuggestionChannel: '761619652009787392',
+		SuggestionChannel: '1208335559186194432',
 		// Where the bot will send Guild join/leave messages to
-		GuildChannel: '761619652009787392',
+		GuildChannel: '1208335559186194432',
 		// Where rate limits will be sent to, for investigation
-		rateLimitChannelID: '761612724370931722',
+		rateLimitChannelID: '1208335559186194432',
 	},
 	API: {
 		port: 3000,
@@ -44,7 +44,7 @@ const config = {
 	// embed colour
 	embedColor: Colors.Default,
 	// This will spam your console if you enable this but will help with bug fixing
-	debug: false,
+	debug: true,
 };
 
 module.exports = config;
